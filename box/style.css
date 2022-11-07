@@ -1,0 +1,173 @@
+body{
+    background: url(file:///C:/Users/nikac/OneDrive/Desktop/wallpaper.png)
+    repeat ;
+    
+
+    margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+* {box-sizing: border-box;}
+
+
+#navbar {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 5px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+
+  font-family: open sans,sans-serif;
+}
+
+#navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 24px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+#navbar #logo {
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+
+
+#navbar a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+#navbar-right {
+  float: right;
+}
+
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 20px 10px !important;
+  }
+  #navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  #navbar-right {
+    float: none;
+  }
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light{
+  font-family: 'Major Mono Display', monospace;
+  font-size: 24px;
+}
+#MainNavbar {
+  font-size: 1.5rem;
+  background: rgba(20,20,20,0.95);
+  font-family: 'Major Mono Display', monospace;
+
+}
+
+#MainNavbar .nav-link{
+  color: white;
+}
+#MainNavbar .nav-link:hover{
+  color: red;
+}
+#MainNavbar .navbar-brand{
+  color: #a03535;
+  font-size: 2rem;
+  
+}
+h1{
+  font-family: 'Oswald', sans-serif;
+  color: #a03535;
+}
+h5{
+  font-family: 'Rubik', sans-serif;
+  color: white;
+}
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+#myVideo{
+  border-radius: 20px;
+}
+.inner-width{
+  position: right;
+}
+.navbar-brand{
+  margin-right: 70px;
+}
+.logo{
+  margin-left: 50px;
+}
+.inner-width{
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.carousel.slide{
+  border: 2px solid black;
+}
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.card-text{
+  font-size: 30px
+}
+.carousel-control-next{
+  color: black;
+}
